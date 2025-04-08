@@ -1,5 +1,16 @@
 # 🔐 kuncen: Token Generator & Validator CLI
 
+```
+Simple Token Generator & Validator
+ __  Build: 2025-04-08 17:30:47
+|  |--.--.--.-----.----.-----.-----.
+|    <|  |  |     |  __|  -__|     |
+|__|__|_____|__|__|____|_____|__|__|
+(C) Sri Sutyoko Hermawan <sri.sutyoko@gmail.com>
+License: Apache 2.0
+
+```
+
 > Stateless, secure, and minimal binary for time-based token validation  
 > CLI ringan dan aman untuk validasi token berbasis waktu
 
