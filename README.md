@@ -8,6 +8,25 @@ Simple Token Generator & Validator
 |__|__|_____|__|__|____|_____|__|__|
 (C) Sri Sutyoko Hermawan <sri.sutyoko@gmail.com>
 License: Apache 2.0
+Usage / Cara Pakai:
+Generate token / Buat token   :  kuncen -b [-k <key>]
+Validate token / Cek token    :  kuncen -v <token> [-k <key>]
+
+-b or -v must be the first argument / harus argumen terdepan
+## Return value / Nilai balikan:
+0 = Invalid / Salah atau gagal
+1 = Valid / Benar
+
+## Options / Opsi lanjutan:
+-u         : Use UTC time / Gunakan waktu UTC (default: lokal)
+-t <int>   : Token validity in minutes / Masa aktif token (menit), default: 3
+-k <text>  : Additional salt key / Sandi tambahan (misal: nama domain)
+-h         : Show help / Tampilkan bantuan
+-i         : Show version info / Tampilkan info versi
+
+## Example / Contoh:
+  ./kuncen -b -t 5 -k github_user
+  ./kuncen -v abc123... -t 5 -k github_user
 
 ```
 
