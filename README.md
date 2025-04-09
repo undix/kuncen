@@ -65,6 +65,11 @@ Binary is freely usable under license terms.
 
 Download dan izinkan eksekusi:
 
+```bash
+sha256sum kuncen
+3abfb1770a97a0900489535fb57047337f909e5584d80836cd8c29edb0b6cdef  kuncen
+```
+
    ```bash
    chmod +x kuncen
    ```
